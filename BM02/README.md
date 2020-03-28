@@ -5,6 +5,10 @@
 
 BM02 is the second of a series of challenges where we are required to use buffer overflow exploits to try to gain access to the flag. We are allowed to craft our exploit using the provided executable and then send the exploit to a remote server where hopefully it will have the correct effect and print the flag.
 
+If you would like some explanation on how this exploit functions, then Computerphile on youtube has a great video on the subject.
+
+[https://www.youtube.com/watch?v=1S0aBV-Waeo](https://www.youtube.com/watch?v=1S0aBV-Waeo)
+
 In this case, we are given an HR app for choosing an Employee of The Month winner from a random selection of candidates.
 
 ![BM02_1](BM02_1.png)
