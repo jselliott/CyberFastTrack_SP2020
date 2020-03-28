@@ -41,4 +41,4 @@ and the server responded with:
 Object validated: The user object UID=073
 ```
 
-followed by the flag.
+followed by the flag **stringing_me_along**.
