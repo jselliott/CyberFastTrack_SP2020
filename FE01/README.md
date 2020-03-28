@@ -15,7 +15,10 @@ Running this through a decoder, outputs a bunch of gibberish:
 
 **«¢¡¡¢º¹¥¨µ¢¿¯¿¤®¦¿¢¬©**
 
-Instead, we could convert it to decimal and then try some different logical operations:
+Instead, we could convert it to hex and then try some different logical operations:
 
 **ab a2 a1 a1 a2 ba 92 b9 a5 a8 92 b5 a2 bf 92 af bf a4 ae a6 92 bf a2 ac a9**
 
+Using Cyberchef, along with the XOR Brute-Force tool, we are able to decode the flag, **follow_the_xor_brick_road**
+
+![FE01_1](FEO1_1.png)
