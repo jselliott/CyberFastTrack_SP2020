@@ -3,7 +3,7 @@
 
 ![BM02](BM02.png)
 
-BM02 is the first of a series of challenges where we are required to use buffer overflow exploits to try to gain access to the flag. We are allowed to craft our exploit using the provided executable and then send the exploit to a remote server where hopefully it will have the correct effect and print the flag.
+BM02 is the second of a series of challenges where we are required to use buffer overflow exploits to try to gain access to the flag. We are allowed to craft our exploit using the provided executable and then send the exploit to a remote server where hopefully it will have the correct effect and print the flag.
 
 In this case, we are given an HR app for choosing an Employee of The Month winner from a random selection of candidates.
 
