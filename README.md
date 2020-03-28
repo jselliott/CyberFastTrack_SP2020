@@ -27,7 +27,7 @@ These have been organized by problem type and difficulty:
 
 ### Medium
 * [BM02](BM02)
-* [BM03](BM03)
+* BM03 *(Unsolved)*
 
 ### Hard
 * [BH04](BH04)
@@ -41,7 +41,6 @@ These have been organized by problem type and difficulty:
 
 ### Easy
 * [FE01](FE01)
-* [FE06](FE06)
 * [FE10](FE10)
 * [FE12](FE12)
 
@@ -55,6 +54,7 @@ These have been organized by problem type and difficulty:
 * [FH04](FH04)
 * [FH05](FH05)
 * [FH10](FH10)
+* FE06 *(Unsolved)*
 
 ## Network
 
