@@ -17,7 +17,7 @@ Next we need to see where this function is called, using the XREFs in IDA, we ca
 
 ![BM02_3](BM02_3.png)
 
-If we look at the exploitable function itself, we can see that it allocated 120 bytes of memory and then uses the unsafe strcopy() function to copy the first name of the employee into that buffer. This means that if we pass an input of 120 characters and then our payload, we can overwrite the return address and redirect the program into the **read_flag()** function that we see in the functions list as well.
+If we look at the exploitable function itself, we can see that it allocated 120 bytes of memory and then uses the unsafe strcpy() function to copy the first name of the employee into that buffer. This means that if we pass an input of 120 characters and then our payload, we can overwrite the return address and redirect the program into the **read_flag()** function that we see in the functions list as well.
 
 The other important detail is that we can see at the bottom of this function, the creators have added a sort of naive stack canary. It compares a section of memory right at the top of the stack with 0xDEADBEEF and, if the value does not match, then it exits the program. Otherwise, it continues.
 
