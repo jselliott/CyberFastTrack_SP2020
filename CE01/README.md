@@ -10,3 +10,5 @@ For this challenge, we are given an image with some sort of encoded message in i
 Crypto nerds will immediately recognize the Pigpen cipher (below). Each shape in the cipher can be looked up on the chart below to see the accompanying letter.
 
 ![Pigpen Cipher](crypto.png)
+
+Using this chart, we are able to find the flag **bacon_secret_codes**
