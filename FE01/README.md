@@ -21,4 +21,4 @@ Instead, we could convert it to hex and then try some different logical operatio
 
 Using Cyberchef, along with the XOR Brute-Force tool, we are able to decode the flag, **follow_the_xor_brick_road**
 
-![FE01_1](FEO1_1.png)
+![FE01_1](FE01_1.png)
