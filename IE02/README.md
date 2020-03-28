@@ -6,7 +6,7 @@
 
 For this challenge, we are told to search pasetbin for a particular string "W1wg70w4zOv2vxPZ". A quick google search reveals a few pastebin links including [this one](https://pastebin.com/Z1qbAeiT).
 
-![IE02_1](IE02_01.png)
+![IE02_1](IE02_1.png)
 
 The text from the pastbin link is as follows:
 
