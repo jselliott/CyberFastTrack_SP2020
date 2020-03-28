@@ -1,5 +1,5 @@
-#CE01
-#Cryptography (Easy)
+# CE01
+# Cryptography (Easy)
 
 ![Brief](CE01_1.png)
 
