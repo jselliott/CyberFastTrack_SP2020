@@ -47,3 +47,5 @@ for a in ["","S"]:
 
 for x in X:
     print(chr(Y[x]),end="")
+
+print("")
