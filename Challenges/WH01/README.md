@@ -22,4 +22,4 @@ It turns out, that the server is actually configured to also accept unsigned JWT
 
 After doing this, we can create a simple HTML document with a form that submits the modified token using a POST request to the /api/admin.php endpoint.
 
-The API accepts this modified, unsigned token with no question and allows the user acceess to the flag.
+The API accepts this modified, unsigned token with no question and allows the user access to the flag.
