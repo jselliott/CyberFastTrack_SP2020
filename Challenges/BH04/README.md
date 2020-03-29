@@ -5,7 +5,7 @@
 
 This challenge uses a similar executable to BM02 where we are dealing with an HR app that is used to randomly select an Employee of The Month from the available candidates. However this one has a few modifications that make it a little tricker to exploit.
 
-If you want to see the more basic exploit, take a look at the [BM02 Solution](/BM02).
+If you want to see the more basic exploit, take a look at the [BM02 Solution](/Challenges/BM02).
 
 Just as before, this one includes an **exploitable()** function that accepts information about the employee after the function is called to add a new employee as a candidate for the award. However, you'll notice that this one accepts all three inputs and sets them in memory instead of just the first name.
 
