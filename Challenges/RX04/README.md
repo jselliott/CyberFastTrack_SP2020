@@ -15,7 +15,7 @@ Then off to the right, we can see where the user input is reveived and then two 
 
 ![RX04](RX04_3.png)
 
-So what if we just change this single instruction so that eveery time there is an input, the program believes you've reached the goal? This can be done by changing the instruction from JZ (Jump zero) to JNZ (Jump not zero).
+So what if we just change this single instruction so that every time there is an input, the program believes you've reached the goal? This can be done by changing the instruction from JZ (Jump zero) to JNZ (Jump not zero).
 
 ![RX04](RX04_4.png)
 
