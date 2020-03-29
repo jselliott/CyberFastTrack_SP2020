@@ -14,6 +14,6 @@ for i in L:
         x+=1
 
 for x in X:
-    print(D[x])
+    print(D[x],end="")
 
-
+print("")
