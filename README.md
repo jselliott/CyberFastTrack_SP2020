@@ -8,88 +8,88 @@ These have been organized by problem type and difficulty:
 ## General
 
 ### Easy
-* [CE01](CE01)
-* [IE01](IE01)
-* [IE02](IE02)
-* [OE02](OE02)
-* [OE03](OE03)
-* [TE01](TE01)
-* [TE02](TE02)
-* [TE04](TE04)
+* [CE01](Challenges/CE01)
+* [IE01](Challenges/IE01)
+* [IE02](Challenges/IE02)
+* [OE02](Challenges/OE02)
+* [OE03](Challenges/OE03)
+* [TE01](Challenges/TE01)
+* [TE02](Challenges/TE02)
+* [TE04](Challenges/TE04)
 
 ### Medium
-* [CM08](CM08)
+* [CM08](Challenges/CM08)
 
 ## Binary Exploit
 
 ### Easy
-* [BE03](BE03)
+* [BE03](Challenges/BE03)
 
 ### Medium
-* [BM02](BM02)
+* [BM02](Challenges/BM02)
 * BM03 *(Unsolved)*
 
 ### Hard
-* [BH04](BH04)
+* [BH04](Challenges/BH04)
 
 ### Extreme
-* [BX09](BX09)
-* [BX10](BX10)
-* [BX11](BX11)
+* [BX09](Challenges/BX09)
+* [BX10](Challenges/BX10)
+* [BX11](Challenges/BX11)
 
 ## Forensics
 
 ### Easy
-* [FE01](FE01)
-* [FE10](FE10)
-* [FE12](FE12)
+* [FE01](Challenges/FE01)
+* [FE10](Challenges/FE10)
+* [FE12](Challenges/FE12)
 
 ### Medium
-* [FM11](FM11)
-* [FM15](FM15)
-* [FM17](FM17)
-* [FM18](FM18)
+* [FM11](Challenges/FM11)
+* [FM15](Challenges/FM15)
+* [FM17](Challenges/FM17)
+* [FM18](Challenges/FM18)
 
 ### Hard
-* [FH04](FH04)
-* [FH05](FH05)
-* [FH10](FH10)
+* [FH04](Challenges/FH04)
+* [FH05](Challenges/FH05)
+* [FH10](Challenges/FH10)
 * FE06 *(Unsolved)*
 
 ## Network
 
 ### Medium
-* [NM03](NM03)
-* [NM05](NM05)
-* [NM07](NM07)
+* [NM03](Challenges/NM03)
+* [NM05](Challenges/NM05)
+* [NM07](Challenges/NM07)
 
 ### Hard
-* [NH01](NH01)
-* [NH02](NH02)
+* [NH01](Challenges/NH01)
+* [NH02](Challenges/NH02)
 
 ## Reverse Engineering
 
 ### Medium
-* [RM03](RM03)
+* [RM03](Challenges/RM03)
 
 ### Hard
-* [RH01](RH01)
-* [RH03](RH03)
-* [RH07](RH07)
+* [RH01](Challenges/RH01)
+* [RH03](Challenges/RH03)
+* [RH07](Challenges/RH07)
 
 ### Extreme
-* [RX04](RX04)
+* [RX04](Challenges/RX04)
 
 ## Web Exploits
 
 ### Easy
-* [WE01](WE01)
-* [WE02](WE02)
+* [WE01](Challenges/WE01)
+* [WE02](Challenges/WE02)
 
 ### Medium
-* [WM01](WM01)
-* [WM02](WM02)
-* [WM12](WM12)
+* [WM01](Challenges/WM01)
+* [WM02](Challenges/WM02)
+* [WM12](Challenges/WM12)
 
 ### Hard
-* [WH01](WH01)
+* [WH01](Challenges/WH01)
