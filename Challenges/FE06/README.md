@@ -1,6 +1,6 @@
-# BE06
-## Binary Exploit (Hard)
+# FE06
+## Forensics (Hard)
 
-![BE06](BE06.png)
+![FE06](FE06.png)
 
 Did not have time to solve this :(
