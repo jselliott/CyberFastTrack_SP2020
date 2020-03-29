@@ -11,7 +11,7 @@ Looking at the program in IDA, we can see a block of code where the flag is prin
 
 ![RX04](RX04_2.png)
 
-Then off to the right, we can see where the user input is reveived and then two variables are compared, the location after the input, and the location of the goal.
+Then off to the right, we can see where the user input is received and then two variables are compared, the location after the input, and the location of the goal.
 
 ![RX04](RX04_3.png)
 
