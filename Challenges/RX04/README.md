@@ -3,7 +3,7 @@
 
 ![RX04](RX04.png)
 
-This challenge is another maze challeng. However, now we are able to actually see it on screen and navigate the maze ourselves with the WASD keys. But when you reach the end of the maze each time, you find that the maze gets bigger and you have to do it again. So  much, that it reaches the point where it is unreasonable to solve.
+This challenge is another maze challenge. However, now we are able to actually see it on screen and navigate the maze ourselves with the WASD keys. But when you reach the end of the maze each time, you find that the maze gets bigger and you have to do it again. So  much, that it reaches the point where it is unreasonable to solve.
 
 ![RX04](RX04_1.png)
 
