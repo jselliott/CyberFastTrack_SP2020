@@ -1,5 +1,5 @@
 newmap = {
-2: "PostFail",
+2: "",
 4: "a",
 5: "b",
 6: "c",
@@ -40,7 +40,7 @@ newmap = {
 41: "esc",
 42: "del",
 43: "tab",
-44: "space",
+44: " ",
 45: "-",
 47: "[",
 48: "]",
@@ -60,10 +60,9 @@ for line in myKeys:
             keyVal = int(byte)
 
             if keyVal in newmap:
-                #print "Value map : " + str(keyVal) + " — -> " + newmap[keyVal]
-                print(newmap[keyVal])
+                print(newmap[keyVal],end="")
             else:
-                print("No map found for this value: " + str(keyVal))
-
-    #print format(byte, ‘02X’)
+                continue
     i+=1
+
+print("")
