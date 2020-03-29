@@ -1,5 +1,5 @@
 # Cyber FastTrack Spring 2020
-Now that the competition has ended, we are free and "encouraged" to share solutions and writeups (according to the email sent by the program organizers shortly before the competition).
+Now that the competition has ended, we are free and "encouraged" to share solutions and writeups (according to the email sent by the program organizers shortly before the competition). As the winner, I was able to complete 95% of the challenges but unfortunately just ran out of time/energy when doing FE06 and BM03.
 
 ![Scoreboard](scores.png)
 
