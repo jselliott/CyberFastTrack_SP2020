@@ -20,6 +20,6 @@ If you decode the token that you are given, you see that there is a user type "u
 
 It turns out, that the server is actually configured to also accept unsigned JWT tokens as valid as well. We can do this by decoding the header and changing the alg field to "none", then decoding the body and changing the user type to "admin", and finally we can just delete the signature portion.
 
-After doing this, we can create a simpe HTML document with a form that submits the modified token using a POST request to the /api/admin.php endpoint.
+After doing this, we can create a simple HTML document with a form that submits the modified token using a POST request to the /api/admin.php endpoint.
 
 The API accepts this modified, unsigned token with no question and allows the user acceess to the flag.
