@@ -3,7 +3,7 @@
 
 ![NH02](NH02.png)
 
-For this challenge, we are given a PCAP file that contains a some packets that are somehow signalling a message. The first thing that jumps out is the crazy amount of flags on each packet, almost all of which are innapropriately used.
+For this challenge, we are given a PCAP file that contains some packets that are somehow signalling a message. The first thing that jumps out is the crazy amount of flags on each packet, almost all of which are innapropriately used.
 
 So we know that a message is being included somehow but the question is how.
 
