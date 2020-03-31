@@ -29,9 +29,12 @@ This is somewhat inconsequential, because we can simply include that value in ou
 
 ![BM02_4](BM02_4.png)
 
-Looking at the **read_flag()** function, we can see the address is 0x5655615d so we can use this to begin to craft our payload
+Looking at the **read_flag()** function, we can see the address is 0x5655615d so we can use this to begin to craft our payload. *Note: The screenshot in IDA doesn't show that exact address, I believe just due to the environment it runs in. Disassembling the program in GDB will give the correct address.*
 
 ![BM02_5](BM02_5.png)
+
+
+![BM02_5](BM02_5_0.png)
 
 In order to automate everything, it is easiest to use python and pass the correct payload, which we can then pipe into the local program for testing, or netcat to do the real thing on the remote server.
 
