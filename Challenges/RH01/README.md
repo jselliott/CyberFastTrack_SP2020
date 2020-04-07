@@ -54,3 +54,21 @@ Next we can run both our program, and the provided executable at the same time s
 This prints out the current time, followed by the three numbers, which we can type in and "guess" correctly.
 
 ![RH01](RH01_3.png)
+
+## Alternate Method (Thanks to /u/youssef on Reddit)
+
+Another way that was pointed out to me was instead of trying to predict the random numbers based on time, we can simply override the srand() function itself.
+
+By writing a custom rand.c we can write out own function like:
+
+```c
+
+int srand()
+{
+	return 42;
+}
+```
+
+We can then use LD_PRELOAD to replace the built-in srand function with one that always returns the same number. Meaning that the challenge executable will always give the same 3 numbers.
+
+More info on that method can be found [here](http://www.goldsborough.me/c/low-level/kernel/2016/08/29/16-48-53-the_-ld_preload-_trick/)
